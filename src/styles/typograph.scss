@@ -1,0 +1,78 @@
+.title {
+    
+    &.one {
+        font-size:clamp(20px, 4vw, 50px);
+    }
+
+    &.two {
+        font-size: clamp(15px,  2vw, 30px);
+    }
+
+    &.three {
+        font-size: clamp(20px,  2vw, 30px);
+    }
+
+    &.four {
+        font-size: 16px;
+    }
+
+    &.fourBurguer {
+        font-size: clamp(13px, 4vw, 20px);
+    }
+
+    &.description {
+        font-size: clamp(5px,  3vw, 12px);
+
+    }
+    &.hastag {
+        color: rgb(95, 151, 255);
+    }
+
+    &.insta {
+        color: rgb(247, 154, 239);
+    }
+
+    &.size {
+        width: 500px;
+        padding: 20px;
+    }
+
+    &.underline {
+        text-decoration: underline;
+    }
+
+    &.colorWhite {
+        color: white; 
+    }
+
+    &.Green {
+        color: #004442; 
+    }
+
+    &.disable {
+        color: rgba(255, 255, 255, 0.367);
+        transition: .5s;
+        &:hover {
+            transition: .5s;
+            color: var(--Color-Secundary);
+            transform: scale(1.1);
+        }
+    }
+
+    &.center {
+        text-align: center;
+    }
+
+    &.bold {
+        font-weight: 900;
+    }
+
+    &.semiBold {
+        font-weight: 600;
+    }
+
+    &.regular {
+        font-weight: 300;
+    }
+}
+

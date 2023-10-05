@@ -1,0 +1,32 @@
+  .listPiracicaba {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    overflow-y: auto;
+
+    margin-right: 30px;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+
+      .boxImg {
+        display: flex;
+        width: 200px;
+        height: 200px;
+
+        img {
+          width: 200px;
+          object-fit: cover;
+          border-radius: 8px;
+          border: 1px solid var(--Color-Opacity);
+        }
+      }
+
+      h1 {
+        margin-bottom: 5px;
+      }
+    }
+  }
+

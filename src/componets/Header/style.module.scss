@@ -1,0 +1,77 @@
+
+.menuSm {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    .logoHeader {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+        img {
+            width: 80px;
+        }
+        
+        
+    }
+
+    nav {
+        display: none;
+
+        gap: 20px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .user {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .menuDesk {
+//     display: flex;
+//     justify-content: space-between;
+//     margin: 20px;
+    
+//     .logoHeader {
+//         display: flex; 
+//         gap: 10px;
+        
+//         img {
+//             width: 30px;
+//         }
+        
+        
+//     }
+
+//     nav {
+//         display: flex;
+//         gap: 20px;
+
+//         a {
+//             text-decoration: none;
+//         }
+//     }
+// }

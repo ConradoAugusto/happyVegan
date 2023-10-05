@@ -1,0 +1,45 @@
+:root {
+    --Color-Primary: #004442;
+    --Color-Secundary: #f5f0e2;
+    --Color-Opacity: #afafaf7c;
+  }
+
+  html {
+    background-color: var(--Color-Secundary);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    z-index: 9999;
+    position: absolute;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--Color-Secundary);
+    border: 1px solid var(--Color-Opacity);
+    border-radius: 10px;
+    z-index: 9999;
+    position: absolute;
+  }
+  
+  ::before,
+  ::after {
+    box-sizing: inherit;
+    z-index: 9999;
+    position: absolute;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    max-height: 100vh;
+    height: 100%;
+  }
